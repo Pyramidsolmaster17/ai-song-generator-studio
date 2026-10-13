@@ -1,0 +1,1 @@
+"""Pure domain primitives — no I/O, no globals."""
