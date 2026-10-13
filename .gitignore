@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# PyInstaller / cx_Freeze
+*.spec
+build/
+dist/
+
+# Model weights + generated audio (never commit these)
+models/weights/*.ckpt
+models/weights/*.safetensors
+models/weights/*.onnx
+models/weights/*.bin
+outputs/
+renders/
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Tokenizer + embedding caches
+cache/
+.cache/
+tokenizer_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.local
+secrets.toml
